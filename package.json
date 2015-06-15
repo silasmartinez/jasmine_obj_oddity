@@ -1,0 +1,17 @@
+{
+  "name": "warmup_6_15",
+  "version": "1.0.0",
+  "description": "",
+  "main": "warmup.js",
+  "scripts": {
+    "test": "nodemon --exec standard & nodemon --exec jasmine"
+  },
+  "standard": {
+    "ignore": [
+      "spec/**",
+      "node_modules/**"
+    ]
+  },
+  "author": "",
+  "license": "ISC"
+}
